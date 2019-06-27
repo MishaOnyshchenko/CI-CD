@@ -7,5 +7,3 @@ install:
 - ./mvnw dependency:go-offline -DexcludeReactor=false
 script:
 - ./mvnw clean test
-
-
