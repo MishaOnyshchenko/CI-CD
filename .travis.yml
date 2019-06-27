@@ -4,4 +4,7 @@ sudo: false
 install:
 - mvn -N io.takari:maven:wrapper
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-script: mvn test
+
+script: mvn clean test
+
+
