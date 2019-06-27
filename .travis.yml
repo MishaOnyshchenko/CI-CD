@@ -1,8 +1,5 @@
 language: java
 jdk: openjdk8
-#sudo: false
-#before_install:
-#- chmod +x mvnw
 install:
 - ./mvnw dependency:go-offline -DexcludeReactor=false
 script:
